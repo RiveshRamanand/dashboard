@@ -11,7 +11,7 @@ function checkUsernamePassword() {
     const password = loginPassword.value;
     if (username === "gebruiker1234" && password === "school") {
         alert("You have succesfully logged in.");
-        window.location.href = 'home.html'
+        window.location.href = '/dash-home.html'
         window.localStorage.setItem('username', 'gebruiker1234')
         window.localStorage.setItem('password', 'school')
         savedUsername.innerHTML = localStorage.getItem('username')
